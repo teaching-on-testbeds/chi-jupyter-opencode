@@ -6,7 +6,7 @@ This container runs JupyterLab and OpenCode Web against the same workspace. Dock
 
 Run one of these notebooks in the Chameleon Jupyter environment:
 
-- `launch-cpu.ipynb` reserves an `m1.medium` VM with an optional disposable boot volume.
+- `launch-cpu.ipynb` reserves an `m1.large` VM with an optional disposable boot volume.
 - `launch-gpu.ipynb` reserves a `g1.h100.pci.1` VM with a CUDA image and a 100 GiB disposable boot volume by default.
 - `cleanup.ipynb` deletes the selected VM, floating IP, disposable volume, and lease.
 
